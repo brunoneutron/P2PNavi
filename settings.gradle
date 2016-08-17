@@ -1,0 +1,1 @@
+include ':app', ':junit-4.10'
