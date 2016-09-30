@@ -4,6 +4,7 @@ import android.annotation.TargetApi;
 import android.app.AlertDialog;
 import android.content.Context;
 import android.content.DialogInterface;
+import android.content.Intent;
 import android.location.Location;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
@@ -11,6 +12,7 @@ import android.net.wifi.WifiInfo;
 import android.net.wifi.WifiManager;
 import android.os.Build;
 import android.os.Bundle;
+import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.KeyEvent;
@@ -33,6 +35,7 @@ import com.google.android.gms.maps.model.CameraPosition;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.MarkerOptions;
 import com.google.android.gms.maps.model.PolylineOptions;
+import com.sv2x.googlemap3.LoginAndRegister.LoginActivity;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -441,6 +444,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         Toast toast;
         if (id == R.id.file_handling) {
             FileHandling_Sharing();
+
 
         }
         else if (id == R.id.connect_server)
@@ -1047,6 +1051,9 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                         //run_file(List_of_files[which].toString());
                         switch (which_file) {
                             case 0:
+                                //setup email protocol here
+                                String filepath = new File(List_of_files[which].toString()).getAbsolutePath();
+                                emailProtocol(filepath);
                                 break;
                             case 1:
                                 run_file(List_of_files[which].toString());
@@ -1096,6 +1103,12 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
             }
         });
         builder_listOFfiles.show();
+    }
+
+    private void emailProtocol(String filePath) {
+        Toast.makeText(getApplicationContext(), filePath, Toast.LENGTH_LONG).show();
+        Intent intent = new Intent(this,EmailActivity.class);
+        startActivity(intent);
     }
 
     public void showToast(final String toast)

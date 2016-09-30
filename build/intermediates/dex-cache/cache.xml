@@ -2,172 +2,229 @@
 <items version="2" >
 
     <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-077a429406edae51691ffd0405d092ab5f7dae4a.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-ff4eb87ac1ccf71b92f42f2742ca504ae724513d.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-d7164b62c01cb87cbd840392db6852d414b9e3e6.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-5cc6c0cef7b03b20b46e4fbb7687688cc2be63db.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-e4a86d5ef0390450186a0d2868b3f15e3b0aa8d5.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/junit-4.10/junit-4.10.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="e4f1766ce7404a08f45d859fb9c226fc9e41a861">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/junit-4.10-86187f3d747f29ace2fc43787fa8f95fbf925f27.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-7d14b885e4ba25b883f8a6a88efd8c4f269076b1.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-217695df8ddbb8efffa3db5710e07148b64e51e6.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="055783146ba9654a725442563be78cad303aad1f">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-b4e1b35b004c9c2ffbce9097d436e6acde105b71.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="983e2f375504bc04def18e709c35192afe92e65f">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-58d89b88166c43b6ff3bc0afecb3432bb5451c55.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/jars/libs/internal_impl-22.1.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/internal_impl-22.1.0-f85f5104deb1a110bb0cd9a722d2d75953444e6b.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-b77566a7443b4e21f09ea7fa9cffe3c4aaf15833.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-544a2bb4fd09ca53b5e3e311f575e04836e41266.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-ad65896d5411364cc549f02204c3a5cd5037d502.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.0/support-annotations-22.1.0.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="281bc6c58ecb3644c23fbc5ee0452019f67b4d5d">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/support-annotations-22.1.0-38dd8d6f32c253497584419bb20b1b6de7f6cac0.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
-        jumboMode="false"
-        revision="21.1.2"
-        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-5cbe7d8c054f52d83208687162e2ed7b9f528439.jar" />
-    </item>
-    <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-gcm/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="9224bc4c54ba95147c7eabd874573763c07cb6be">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-43dac5e7fb5ef4d99fccc57d91bd88e233a300ab.jar" />
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-gcm-7.0.0_b455889cb67603eb99ad78fba0b8b18154da985f/classes.dex" />
     </item>
     <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-plus/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
-        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-a45757525f743227778658870d5a0b78ac46a8ed.jar" />
+        sha1="0e8228b4bc69c6a2c8d7c18498a77e53417d2574">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-plus-7.0.0_872158dc4794f42ea616c236f760b81043ba550d/classes.dex" />
     </item>
     <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appstate/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
-        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-ff90da929fb8ff0bd27508da192b5e244a8e0568.jar" />
+        sha1="7ff613bf78ab057293892fdbd4169eda899c89b9">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appstate-7.0.0_71735b508e608c41532b1f2d89a3ca2be09f3ee2/classes.dex" />
     </item>
     <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-identity/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="fb04b12526b0073c7fb1ebb70c5842d82ee95596">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-66b0cf450ba353daf5feca7aa5801d29ee2359c7.jar" />
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-identity-7.0.0_8431753045e278090d7d3a45c5c953c34d984697/classes.dex" />
     </item>
     <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-safetynet/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
-        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-3dd18568a2b6ae8032e49cdd5f514f82d782000a.jar" />
+        sha1="c976518693e89ad44fbfccfc654941eaec198d08">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-safetynet-7.0.0_b69efe0738f2a38578a1c2ae1b0e81ff11942ec5/classes.dex" />
     </item>
     <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-location/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
-        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-d47f4faa8b81a9bd015d084948c4e2b0259829c8.jar" />
+        sha1="73ccb92b70112f2e463e415ef8d7275de7da6516">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-location-7.0.0_111155cb34a7033a40b409d953764a7635a0bbf6/classes.dex" />
     </item>
     <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-ads/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="e3d791b42eaa90416cd0b2d2e608092794a3baa4">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-c92e2a905a04e88fa6a55b714309ec21067c442b.jar" />
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-ads-7.0.0_e5569bbd1602da0d4c4373aec616d7b087f5ccac/classes.dex" />
     </item>
     <item
-        jar="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
-        jumboMode="false"
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="eeebabdfd8203f6ab639ccea4ffa1f20e1adee3a">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-support-v4-22.1.0_3dcb4b234d7e0078acb37a7bb1625b80410d27b5/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="985ec847cd995187b3b5e575dfa1ced5f1894d7a">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f893d393f12da56d5abfe1be5e4425143a19e986/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-games/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="055783146ba9654a725442563be78cad303aad1f">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-games-7.0.0_0d753616cf5ac4906e48c65cc0ddc000f9a52ccd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.android.support/support-v4/22.1.0/jars/libs/internal_impl-22.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="025cb89f2896c63200ff4c2e6c467a95691d880a">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/internal_impl-22.1.0_9764f2c220efb3baa6182f80ab16fb37a95a2448/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-analytics/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="29fd6d3794b71491c2789708cd8d03c71feb8954">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-analytics-7.0.0_97ccabdb4eb08648bda7fad2ef2ce9d2e5f636c3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-appindexing/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a08d65794b844d8e7540bf9a33859bf3b2482d7f">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-appindexing-7.0.0_38c4b831d1ab673896a8e276fe430a530a986997/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/22.1.0/support-annotations-22.1.0.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="281bc6c58ecb3644c23fbc5ee0452019f67b4d5d">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-22.1.0_c00f241c9405f0f3f89ce771c7be9d848b8d62fc/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wallet/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="a96b762bde4139de855735f175ec4d17dca55a6d">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wallet-7.0.0_e760db607dbb2440de8bc9f907b34c0f0b313f0e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="9d7d8ade39cd5484a4b0bd3d87d4dd567eef6afb">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8a193c0f0f23bd16c70c7cdc006bd8749389c99d/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-nearby/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="ef5f051e7308febe289dc93c67c5f32785b4260a">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-nearby-7.0.0_20133d8d909606a9393060b19a1af4b1632e1058/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-fitness/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3c0b099f9de16b265ecd6122fcb603e7d0d29f90">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-fitness-7.0.0_9fd437de2e703e5feba8c95ef46ff27ab39b1a39/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-wearable/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="3033cc3a2c68dff3e5b646d6d084bdbdf7d00b25">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-wearable-7.0.0_e978f5756ec9921373ad2d4aa05b4685a26e78f9/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-maps/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="17f8750d5c0749e44dd7c54aa390d9c937803825">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-maps-7.0.0_d0b32516cbe6e35d183881b6b01e300fa6e7fdfa/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-cast/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4cd0b093824b3228fffc21ea369b98d0b1db6566">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-cast-7.0.0_f075e4b0759c9d08bd8297e0856304f408fa5e7f/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-base/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="4c93d99d454c975536bbe3b42283eee847f03ea3">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-base-7.0.0_ec43c67f6e7bded3b57a625e3953681eb106bbb3/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-drive/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="41b3870cbe5fa546d8095b5b89d42cb69f3dd175">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-drive-7.0.0_1406a695dfb07f875e54a39b28d39f960d964c84/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="21.1.2"
+        sha1="983e2f375504bc04def18e709c35192afe92e65f">
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.android.support-appcompat-v7-22.1.0_eaa1bc5b916a342a8b734683aa4e235ac1ba6668/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/exploded-aar/com.google.android.gms/play-services-panorama/7.0.0/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
         revision="21.1.2"
         sha1="1c5a76debf0c2857ccad422c4a80ed785982f8df">
-        <dex dex="/Users/andriesbruno/Desktop/P2P/app/build/intermediates/pre-dexed/debug/classes-9ddede11ef5ee645739129aa922ad3eddccad85d.jar" />
+        <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/com.google.android.gms-play-services-panorama-7.0.0_e4e0fe08de8cfac810e61df0739e198bfec6f053/classes.dex" />
     </item>
 
 </items>
