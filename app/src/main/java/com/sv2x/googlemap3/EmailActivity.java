@@ -5,6 +5,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.os.Environment;
+import android.support.v4.content.FileProvider;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
@@ -21,6 +22,11 @@ import java.nio.channels.FileChannel;
  */
 
 public class EmailActivity extends Activity {
+    static final String AUTHORITIES_NAME = "com.sv2x.googlemap3.fileprovider";
+    final String FOLDER_NAME = "files";
+    final String FILE_NAME = "2016-09-304.txt";
+
+
     //Set up button and text fileds
     Button sendButton;
     EditText receiver_email;
@@ -50,24 +56,35 @@ public class EmailActivity extends Activity {
                 String subject = mail_subject.getText().toString();
                 String message = text_message.getText().toString();
 
-                //Create an a send intent
-                Intent email= new Intent(Intent.ACTION_SEND);
+                Intent email = new Intent(Intent.ACTION_SEND);
+                email.setType("*/*");
                 email.putExtra(Intent.EXTRA_EMAIL,new String[]{sendTo});
-                //Other extra's that can be tried
-                //email.putExtra(Intent.EXTRA_CC,new String[]{sendTo});
-                //email.putExtra(Intent.EXTRA_BCC,new String[]{sendTo});
-                email.putExtra(Intent.EXTRA_SUBJECT, subject);
+                email.putExtra(Intent.EXTRA_SUBJECT,subject);
                 email.putExtra(Intent.EXTRA_TEXT,message);
+                //Deal with attachment
+                File filePath = new File(getFilesDir(),FOLDER_NAME);
+                File filesharing =  new File(filePath,FOLDER_NAME);
+                Uri uri = FileProvider.getUriForFile(getApplicationContext(),AUTHORITIES_NAME,filesharing);
+                email.putExtra(Intent.EXTRA_STREAM,uri);
+                startActivity(Intent.createChooser(email,"Select Email Client"));
+
+
+
+
+
+
+
+
 
                 //Dealing with file attachment
-                File dir = getFilesDir();
-                Log.d("filePath",dir.toString());
-                File file = new File(dir.toString()+"/2016-09-300.txt");
-                Uri uri = Uri.fromFile(file);
+                //File dir = getFilesDir();
+                //Log.d("filePath",dir.toString());
+                //File file = new File(dir.toString()+"/2016-09-300.txt");
+                //Uri uri = Uri.fromFile(file);
 
-                String file_name = "2016-09-300.txt";
-                Toast.makeText(getApplicationContext(),uri.toString(), Toast.LENGTH_LONG).show();
-                email.putExtra(Intent.EXTRA_STREAM,uri);
+                //String file_name = "2016-09-300.txt";
+                //Toast.makeText(getApplicationContext(),uri.toString(), Toast.LENGTH_LONG).show();
+                //email.putExtra(Intent.EXTRA_STREAM,uri);
 
 
 
@@ -80,17 +97,15 @@ public class EmailActivity extends Activity {
 
 
 
-                //prompt email client
-                email.setType("message/rfc822");
 
-                try {
+               /* try {
 
                     //Begin an email activity
                     startActivity(Intent.createChooser(email, "Select a client to send e-mail: "));
                     finish();
                 }catch (android.content.ActivityNotFoundException ex){
                     Toast.makeText(getApplicationContext(),"Unable to send message", Toast.LENGTH_LONG).show();
-                }
+                }*/
             }
         });
     }

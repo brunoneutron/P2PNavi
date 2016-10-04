@@ -69,7 +69,7 @@
         </activity>
 
 
-        <!-- We declare the content provider for file sharing -->
+        <!-- We declare the content provider for file sharing
         <provider
             android:authorities="user_location_data"
             android:name="UserLocationDataProvider"
@@ -78,8 +78,16 @@
             android:exported="true"
             android:readPermission="android.permission.READ_USER_LOCATION_DATA"
             android:writePermission="android.permission.WRITE_USER_LOCATION_DATA"/>
-
-
+    -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.sv2x.googlemap3.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths"/>
+        </provider>
 
     </application>
 

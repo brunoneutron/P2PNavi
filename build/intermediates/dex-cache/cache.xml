@@ -79,7 +79,7 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="985ec847cd995187b3b5e575dfa1ced5f1894d7a">
+        sha1="87cfc775cca616b28d5fd77887a998522e3f8b8f">
         <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_f893d393f12da56d5abfe1be5e4425143a19e986/classes.dex" />
     </item>
     <item
@@ -142,7 +142,7 @@
         jumboMode="true"
         optimize="true"
         revision="21.1.2"
-        sha1="9d7d8ade39cd5484a4b0bd3d87d4dd567eef6afb">
+        sha1="3f71f9b14f9793312c6c2d6b0a1fcec6148c013a">
         <dex dex="/home/bruno/AndroidStudioProjects/P2PNavi/app/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_8a193c0f0f23bd16c70c7cdc006bd8749389c99d/classes.dex" />
     </item>
     <item
