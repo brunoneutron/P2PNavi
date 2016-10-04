@@ -1053,6 +1053,8 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
                             case 0:
                                 //setup email protocol here
                                 String filepath = new File(List_of_files[which].toString()).getAbsolutePath();
+                                //Log.d("AbsoluteFilePath", filepath);
+                                //Log.d("Hello",List_of_files[which].toString());
                                 emailProtocol(filepath);
                                 break;
                             case 1:
@@ -1108,6 +1110,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
     private void emailProtocol(String filePath) {
         Toast.makeText(getApplicationContext(), filePath, Toast.LENGTH_LONG).show();
         Intent intent = new Intent(this,EmailActivity.class);
+        intent.putExtra("FILENAME",filePath);
         startActivity(intent);
     }
 

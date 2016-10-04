@@ -14,7 +14,10 @@ import android.widget.Toast;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
+import java.io.FileWriter;
+import java.io.IOException;
 import java.nio.channels.FileChannel;
 
 /**
@@ -23,21 +26,22 @@ import java.nio.channels.FileChannel;
 
 public class EmailActivity extends Activity {
     static final String AUTHORITIES_NAME = "com.sv2x.googlemap3.fileprovider";
-    final String FOLDER_NAME = "files";
-    final String FILE_NAME = "2016-09-304.txt";
-
-
+    final String FOLDER_NAME = "/";
     //Set up button and text fileds
     Button sendButton;
     EditText receiver_email;
     EditText mail_subject;
     EditText text_message;
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_email);
 
+        Intent intent = getIntent();
+        final String FILE_NAME = intent.getStringExtra("FILENAME");
 
         //Assign button and to the xml fields
         sendButton = (Button) findViewById(R.id.send_button);
@@ -52,6 +56,9 @@ public class EmailActivity extends Activity {
             @Override
             public void onClick(View v) {
 
+                File file = new File(getApplicationContext().getFilesDir(),FILE_NAME);
+                //Log.d("FilesFolder", file.toString());
+
                 String sendTo = receiver_email.getText().toString();
                 String subject = mail_subject.getText().toString();
                 String message = text_message.getText().toString();
@@ -61,51 +68,12 @@ public class EmailActivity extends Activity {
                 email.putExtra(Intent.EXTRA_EMAIL,new String[]{sendTo});
                 email.putExtra(Intent.EXTRA_SUBJECT,subject);
                 email.putExtra(Intent.EXTRA_TEXT,message);
-                //Deal with attachment
-                File filePath = new File(getFilesDir(),FOLDER_NAME);
-                File filesharing =  new File(filePath,FOLDER_NAME);
+                email.addFlags(Intent.FLAG_GRANT_READ_URI_PERMISSION);
+                File imagePath = new File(getFilesDir(), FOLDER_NAME);
+                File filesharing = new File(imagePath,FILE_NAME);
                 Uri uri = FileProvider.getUriForFile(getApplicationContext(),AUTHORITIES_NAME,filesharing);
                 email.putExtra(Intent.EXTRA_STREAM,uri);
                 startActivity(Intent.createChooser(email,"Select Email Client"));
-
-
-
-
-
-
-
-
-
-                //Dealing with file attachment
-                //File dir = getFilesDir();
-                //Log.d("filePath",dir.toString());
-                //File file = new File(dir.toString()+"/2016-09-300.txt");
-                //Uri uri = Uri.fromFile(file);
-
-                //String file_name = "2016-09-300.txt";
-                //Toast.makeText(getApplicationContext(),uri.toString(), Toast.LENGTH_LONG).show();
-                //email.putExtra(Intent.EXTRA_STREAM,uri);
-
-
-
-                //To send the file, we must make a copy of it to external memory then send that copy
-
-
-
-
-
-
-
-
-
-               /* try {
-
-                    //Begin an email activity
-                    startActivity(Intent.createChooser(email, "Select a client to send e-mail: "));
-                    finish();
-                }catch (android.content.ActivityNotFoundException ex){
-                    Toast.makeText(getApplicationContext(),"Unable to send message", Toast.LENGTH_LONG).show();
-                }*/
             }
         });
     }

@@ -2,6 +2,10 @@
 <paths>
     <files-path
         name="internal_docs"
-        path="data/user/0/com.sv2x.googlemap3/"/>
+        path="/"/>
 
+
+   <!-- <external-path
+        name="files"
+        path = "Android/data/user/0/com.sv2x.googlemap3/files"/> -->
 </paths>
