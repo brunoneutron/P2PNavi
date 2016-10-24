@@ -276,7 +276,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
                 } else {
 
-                    if (listFile[i].getName().endsWith(".txt") && file_name.equals( listFile[i].getName() ) ) {
+                    if (listFile[i].getName().endsWith(".lud") && file_name.equals( listFile[i].getName() ) ) {
                         return listFile[i].delete();
                     }
                 }
@@ -332,7 +332,7 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
 
                 } else {
 
-                    if (listFile[i].getName().endsWith(".txt")) {
+                    if (listFile[i].getName().endsWith(".lud")) {
                         temp[size] = listFile[i].getName().toString();
                         size++;
                     }
@@ -365,11 +365,11 @@ public class MainActivity extends FragmentActivity implements GoogleApiClient.Co
         Message = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
         try {
             int num = 0;
-            while (fileExistance(Message.toString() + num + ".txt")) {
+            while (fileExistance(Message.toString() + num + ".lud")) {
                 num++;
             }
             showToast(Message.toString() + num);
-            fileOutputStream = openFileOutput(Message + num + ".txt", MODE_WORLD_READABLE);
+            fileOutputStream = openFileOutput(Message + num + ".lud", MODE_WORLD_READABLE);
             outputStreamWriter = new OutputStreamWriter(fileOutputStream);
             Toast.makeText(getBaseContext(), "File Created", Toast.LENGTH_SHORT).show();
         } catch (FileNotFoundException e) {
